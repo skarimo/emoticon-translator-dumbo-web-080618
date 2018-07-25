@@ -8,7 +8,7 @@ def load_library(path)
   emoticons_hash['get_emoticon'] = {}
   
   emoticons.each do |k, v|
-    emoticons_hash['get_meaning'][v.last] = v.first
+    emoticons_hash['get_meaning'][v.first] = v.last
   end
   
   emoticons_hash
